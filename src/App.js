@@ -1,9 +1,11 @@
 import './App.css';
 
 function Headings() {
-   
+   let title = "This is the Heading Text am working on"
   return (
-    <h1>This is the Heading Text</h1>
+    <div>
+      {title}
+    </div>
   )
 }
 
