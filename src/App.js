@@ -1,16 +1,13 @@
-import './App.css';
-
-function Headings() {
-   let title = "This is the Heading Text am working on"
-  return (
-    <div>
-      {title}
-    </div>
-  )
-}
+import Headings from "./Components/Header";
+import Main from "./Components/Main";
+import Slidebar from "./Components/Slidebar";
 
 function App() {
-  return <Headings />;
+  return <div>
+    <Headings name="Abubakar" age="26" />;
+    <Main greet="Hello world"/>
+    <Slidebar name= "Slide Bar"/>
+  </div>
 }
 
 export default App;
